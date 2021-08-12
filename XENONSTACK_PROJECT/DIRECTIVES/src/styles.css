@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+*
+{
+
+    font-family: sans-serif;
+
+}
+
+body
+{
+
+   
+    padding: 30px;
+    border: 1px solid dodgerblue;
+    height: 570px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input
+{
+
+    width: 50%;
+    height: 25px;
+
+}
+

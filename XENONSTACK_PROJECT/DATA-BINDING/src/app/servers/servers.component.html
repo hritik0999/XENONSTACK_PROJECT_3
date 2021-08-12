@@ -1,0 +1,11 @@
+
+<button 
+[disabled] = "allowNewServers"
+(click) = "onServerCreation()">add new server</button>
+
+<p>{{ serverCreationStatus }}</p>
+
+<input type="text" [(ngModel)] = "serverName" placeholder="enter server name">
+
+<app-server></app-server>
+<app-server></app-server>

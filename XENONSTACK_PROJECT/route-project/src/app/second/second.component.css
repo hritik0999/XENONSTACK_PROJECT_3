@@ -1,0 +1,29 @@
+
+
+*
+{
+
+    font-family: sans-serif;
+
+}
+
+article
+{
+
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: green;
+    margin-top:4px ;
+
+}
+
+article p
+{
+
+    padding: 10px;
+
+}

@@ -1,0 +1,21 @@
+<br>
+<button 
+[disabled] = "allowNewServers"
+(click) = "onServerCreation()">add new server</button><br><br>
+
+<!-- use of ngIf below -->
+
+<p *ngIf='serverCreated; else noServer' >{{ serverCreationStatus }}</p>
+
+
+<ng-template #noServer>
+
+<p>no server is created</p>
+
+</ng-template>
+
+
+<input type="text" [(ngModel)] = "serverName" placeholder="enter server name"><br><br>
+
+<app-server *ngFor ="let server of servers" ></app-server>
+

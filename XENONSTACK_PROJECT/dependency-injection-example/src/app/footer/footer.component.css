@@ -1,0 +1,13 @@
+body
+{
+
+    width: 100%;
+    border: 1px solid dodgerblue;
+    height: 100px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
